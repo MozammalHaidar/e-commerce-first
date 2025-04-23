@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="hero_area">
+      <!-- Header -->
+      <header class="header_section">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <div class="navbar-inner">
+              <!-- Logo -->
+              <div class="nav-section nav-logo">
+                <a class="navbar-brand" href="index.html">
+                  <img
+                    src="images/logo.png"
+                    width="250"
+                    height="25"
+                    alt="Logo"
+                  />
+                </a>
+              </div>
+
+              <!-- Navigation Links -->
+              <div
+                class="nav-section nav-links collapse navbar-collapse"
+                id="navbarNav"
+              >
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="product.html">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="testimonial.html">Testimonial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Icons -->
+              <div class="nav-section nav-icons">
+                <form class="d-flex ms-2" role="search">
+                  <button class="btn nav_search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </form>
+                <button class="btn nav_search-btn" type="submit">
+                  <a class="nav-link" href="cart.html"
+                    ><i class="fas fa-cart-shopping"></i
+                  ></a>
+                </button>
+
+                <div class="nav-item user-dropdown">
+                  <a class="nav-link" href="#" id="userIcon"
+                    ><i class="fas fa-user"></i
+                  ></a>
+                  <ul class="dropdown-menu-custom hidden" id="userDropdown">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Sign up</a></li>
+                    <li><a href="signup.html">Log out</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- banner-->
+      <section class="slider_section">
+        <div class="slider_bg_box">
+          <img src="images/slider-bg.jpg" alt="Slider Background" />
+        </div>
+        <div
+          id="customCarousel1"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 col-lg-6">
+                <div class="detail-box">
+                  <h1><span>Sale 20% Off</span><br />On Everything</h1>
+                  <p>
+                    Explicabo esse amet tempora quibusdam laudantium, laborum
+                    eaque magnam fugiat hic? Esse dicta aliquid error
+                    repudiandae earum suscipit fugiat molestias.
+                  </p>
+                  <div class="btn-box">
+                    <a href="#" class="btn1">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Why Section -->
+    <section class="why_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>Why Shop With Us</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box text-center">
+              <div class="img-box"><i class="fas fa-truck fa-2x"></i></div>
+              <div class="detail-box">
+                <h5>Fast Delivery</h5>
+                <p>Variations of passages of Lorem Ipsum available</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box text-center">
+              <div class="img-box">
+                <i class="fas fa-shipping-fast fa-2x"></i>
+              </div>
+              <div class="detail-box">
+                <h5>Free Shipping</h5>
+                <p>Variations of passages of Lorem Ipsum available</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box text-center">
+              <div class="img-box"><i class="fas fa-cogs fa-2x"></i></div>
+              <div class="detail-box">
+                <h5>24/7 Support</h5>
+                <p>Variations of passages of Lorem Ipsum available</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Arrival Section -->
+    <section class="arrival_section">
+      <div class="container">
+        <div class="box">
+          <div class="arrival_bg_box">
+            <img src="images/arrival-bg.png" alt="Arrival Background" />
+          </div>
+          <div class="row why-details">
+            <div class="col-md-6 ml-auto">
+              <div class="heading_container remove_line_bt">
+                <h2>#NewArrivals</h2>
+              </div>
+              <p class="mt-3 mb-4">
+                Vitae fugiat laboriosam officia perferendis provident aliquid
+                voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic?
+                Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique
+                ex unde!
+              </p>
+              <a href="">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Arrival Section -->
+
+    <!-- Product Section -->
+    <section class="product_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>Our <span>products</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="box">
+              <div class="option_container">
+                <div class="options">
+                  <a href="cart.html" class="option1">Add To Cart </a>
+                  <a href="" class="option2"> Buy Now </a>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/p1.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Men's Shirt</h5>
+                <h6>$75</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="box">
+              <div class="option_container">
+                <div class="options">
+                  <a href="cart.html" class="option1"> Add To Cart </a>
+                  <a href="" class="option2"> Buy Now </a>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/p2.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Men's Shirt</h5>
+                <h6>$80</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="box">
+              <div class="option_container">
+                <div class="options">
+                  <a href="cart.html" class="option1"> Add To Cart </a>
+                  <a href="" class="option2"> Buy Now </a>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/p3.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Women's Dress</h5>
+                <h6>$68</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="box">
+              <div class="option_container">
+                <div class="options">
+                  <a href="" class="option1"> Add To Cart </a>
+                  <a href="" class="option2"> Buy Now </a>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/p4.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Women's Dress</h5>
+                <h6>$70</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="box">
+              <div class="option_container">
+                <div class="options">
+                  <a href="" class="option1"> Add To Cart </a>
+                  <a href="" class="option2"> Buy Now </a>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/p5.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Women's Dress</h5>
+                <h6>$75</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="box">
+              <div class="option_container">
+                <div class="options">
+                  <a href="" class="option1"> Add To Cart </a>
+                  <a href="" class="option2"> Buy Now </a>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/p6.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Women's Dress</h5>
+                <h6>$58</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="box">
+              <div class="option_container">
+                <div class="options">
+                  <a href="" class="option1"> Add To Cart </a>
+                  <a href="" class="option2"> Buy Now </a>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/p7.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Women's Dress</h5>
+                <h6>$80</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="box">
+              <div class="option_container">
+                <div class="options">
+                  <a href="" class="option1"> Add To Cart </a>
+                  <a href="" class="option2"> Buy Now </a>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/p8.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Men's Shirt</h5>
+                <h6>$65</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="box">
+              <div class="option_container">
+                <div class="options">
+                  <a href="" class="option1"> Add To Cart </a>
+                  <a href="" class="option2"> Buy Now </a>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/p9.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Men's Shirt</h5>
+                <h6>$65</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="box">
+              <div class="option_container">
+                <div class="options">
+                  <a href="" class="option1"> Add To Cart </a>
+                  <a href="" class="option2"> Buy Now </a>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/p10.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Men's Shirt</h5>
+                <h6>$65</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="box">
+              <div class="option_container">
+                <div class="options">
+                  <a href="" class="option1"> Add To Cart </a>
+                  <a href="" class="option2"> Buy Now </a>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/p11.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Men's Shirt</h5>
+                <h6>$65</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="box">
+              <div class="option_container">
+                <div class="options">
+                  <a href="" class="option1"> Add To Cart </a>
+                  <a href="" class="option2"> Buy Now </a>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/p12.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Women's Dress</h5>
+                <h6>$65</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-box">
+          <a href="">View All Products</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Product Section -->
+
+    <!-- Subscribe Section -->
+    <section class="subscribe_section">
+      <div class="container-fuild">
+        <div class="box">
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <div class="subscribe_form">
+                <div class="heading_container heading_center">
+                  <h3>Subscribe To Get Discount Offers</h3>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor
+                </p>
+                <form action="">
+                  <input type="email" placeholder="Enter your email" />
+                  <button>Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Subscribe Section -->
+
+    <!-- Client Section -->
+    <section class="client_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>Customer's Testimonial</h2>
+        </div>
+        <div
+          id="carouselExample3Controls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Testimonial Item -->
+            <div class="carousel-item active">
+              <div class="box col-lg-10 mx-auto">
+                <div class="img_container">
+                  <div class="img-box">
+                    <div class="img_box-inner">
+                      <img src="images/client.jpg" alt="Client Image" />
+                    </div>
+                  </div>
+                </div>
+                <div class="detail-box">
+                  <h5>Anna Trevor</h5>
+                  <h6>Customer</h6>
+                  <p>
+                    Dignissimos reprehenderit repellendus nobis error quibusdam?
+                    Atque animi sint unde quis reprehenderit, et, perspiciatis,
+                    debitis totam est deserunt eius officiis ipsum ducimus ad
+                    labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel controls (arrows) would go here -->
+
+          <div class="carousel_btn_box">
+            <a
+              class="carousel-control-prev"
+              href="#carouselExample3Controls"
+              role="button"
+              data-slide="prev"
+            >
+              <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExample3Controls"
+              role="button"
+              data-slide="next"
+            >
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Client Section -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <!-- Footer Logo and Contact Info -->
+          <div class="col-md-4">
+            <div class="full">
+              <div class="logo_footer">
+                <a href="#">
+                  <img
+                    src="images/logo.png"
+                    alt="Logo"
+                    width="110"
+                    height="70"
+                  />
+                </a>
+              </div>
+              <div class="information_f">
+                <p>
+                  <strong>ADDRESS:</strong> Cumilla Bus Stand, Feni Sadar, Feni
+                </p>
+                <p><strong>TELEPHONE:</strong> 01857******</p>
+                <p><strong>EMAIL:</strong> haidarmozammal@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer Menus and Newsletter -->
+          <div class="col-md-8">
+            <div class="row">
+              <!-- Menu Links -->
+              <div class="col-md-7">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="widget_menu">
+                      <h3>Menu</h3>
+                      <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="widget_menu">
+                      <h3>Account</h3>
+                      <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Shopping</a></li>
+                        <li><a href="#">Widget</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Newsletter -->
+              <div class="col-md-5">
+                <div class="widget_menu">
+                  <h3>Newsletter</h3>
+                  <div class="information_f">
+                    <p>Subscribe by our newsletter and get update protidin.</p>
+                  </div>
+                  <div class="form_sub">
+                    <form>
+                      <fieldset>
+                        <div class="field">
+                          <input
+                            type="email"
+                            name="email"
+                            placeholder="Enter Your Mail"
+                          />
+                          <input type="submit" value="Subscribe" />
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Bottom -->
+    <div class="cpy_">
+      <p class="mx-auto">
+        © 2025 All Rights Reserved By
+        <a href="M.Haidar">Mozammal Haidar</a><br />
+        Distributed By
+        <a href="M.Haidar" target="_blank">M.Haidar</a>
+      </p>
+    </div>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="js/custom.js"></script> -->
+
+    <script>
+      document
+        .getElementById("userIcon")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          const dropdown = document.getElementById("userDropdown");
+          dropdown.classList.toggle("hidden");
+        });
+
+      document.addEventListener("click", function (e) {
+        const dropdown = document.getElementById("userDropdown");
+        const userIcon = document.getElementById("userIcon");
+        if (!userIcon.contains(e.target)) {
+          dropdown.classList.add("hidden");
+        }
+      });
+    </script>
+  </body>
+</html>
